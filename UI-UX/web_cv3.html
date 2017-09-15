@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assgn 2</title>
+		<style>
+
+			body{
+				overflow-x:hidden;
+				font-family: sans-serif;
+			}
+			#navigationBar{
+					width:100%;
+					height:76px;
+					background-color:black;
+					position: fixed;
+					top: 0px;
+					left: 0px;
+					z-index:5;
+			}
+			#logoContainer{
+					 color:white;
+					 margin-left: 15px;
+					 margin-top: 15px;
+
+			}
+			#logoContainer div{
+					margin-top:10px;
+			}
+			#menubar{
+					float:left;
+					position:absolute;
+					right:35px;
+					top:34%;
+					font-size: 20px;
+			}
+			#menubar a{
+					background-color:cadetblue;
+					padding:10px;
+					text-decoration:none;
+			}
+			.menutab{
+					color:white;
+					margin-left:20px;
+			}
+			.subdiv{
+					width:100%;
+					/*border: 0px solid red;*/
+					padding:20px;
+					padding-top:50px;
+			}
+			#mainContainer{
+					margin-top:76px;
+					position:absolute;
+					left:-19px;
+					top:0px;
+					width: 100%;
+					z-index:2;
+			}
+			h4{
+				margin-left:15px;
+				margin-right:15px;
+			}
+			td{
+				border : 1px solid white;
+				text-align: center;
+			}
+			#mypic{
+					height:200px;
+					width:200px;
+					float:left;
+					background:white;
+					margin-left:127px;
+					margin-top:82px;
+					margin-bottom:82px;
+					border-radius:94px;
+					background-image:url("IMG-20170905-WA0088.jpg");
+					background-repeat:no-repeat;
+					background-position-x: -1px;
+					background-position-y: -23px;
+			}
+			footer{
+					width:100%;
+					height:30px;
+					background:black;
+					position:fixed;
+					left:0px;
+					bottom:0px;
+					z-index:99;
+					color:white;
+					padding:20px;
+			}
+			footer div{
+					margin:10px;
+					margin-top:30px;
+					transform:translateY(85px);
+					padding-top:59px;
+					margin-left:50px;
+			}
+			.subdiv span{
+					margin-left:45%;
+					font-size:24px;
+					font-weight:bold;
+					text-decoration:underline;
+			}
+			.odd span{
+					color:white;
+			}
+			.even span{
+					color:white;
+			}
+			.odd{
+					background:cadetblue;
+			}
+			.even{
+					background:indianred;
+			}
+
+			.subdiv hr{
+					width:80%;
+			}
+			#mydescription{
+					width:570px;
+					float:right;
+					margin-top: 41px;
+					margin-bottom: 41px;
+			}
+ 
+			#aboutmetable{
+					width : 80%;
+					margin-left : 8%;
+			}
+			#aboutmetable td{
+					margin-left:20px;
+					padding-right:6%;
+					border:1px solid cadetblue;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<nav id="navigationBar">
+		
+			<div id="logoContainer" >
+				<a style="font-size:35px;">LAXMI SINGH DEO</a>
+			</div>
+			
+			<div id="menubar" font-size: 20px;>
+				<a class="menutab" href="#AboutMe">About Me</a>
+				<a class="menutab" href="#Education">Eduaction</a>
+				<a class="menutab" href="#Skills">Skills</a>
+				<a class="menutab" href="#ContactMe">Conatct us</a>
+				<a class="menutab" href="#Hobbies">Hobbies</a>
+			</div>
+		
+		</nav>
+		
+		<div id="mainContainer">
+		
+			<div id="AboutMe" class="subdiv odd">
+				<span>AboutMe</span>
+				<hr />
+				<table id="aboutmetable">
+				<tr>
+				<td>
+
+					<div id="mypic">
+					
+					</div>
+				<div id="mydescription">
+					<p style="font-size : 17px; float:right;">Hello , I am Laxmi , I hail from the steel city of India i.e Jamshedpur.I am Pursuing my B.Tech From Gandhi Engineering College , Bhubaneswar under Biju Pattnaik University of Technology.I have done my Higher Secondary Examination " from KOLHAN INTER COLLEGE ,CHALIYAMA DAM,CHAIBASA and my "All India Secondary School Examination from GOVT HIGH SCHOOL,Kharsawan. I have 20 members in my family including me.In my leisure time , I like readin books,finding intresting words from dictnory. I beleive myself as an optimistic and amiable person. I am very Enthusiastic in my work and adaptibility to any situation is one of my feature.I like to do leddership work as well as taking responsibilties towards in work. At present ,I am seeking for a job where I can nurture my skills to be an asset for an organization. I would like to see myself heading some national and international operations in a reputed organization like yours "</p>
+				</div>
+				</td>
+				</tr>
+				</table>
+			</div>
+			<div id="Education" class="subdiv even" >
+				<span>Education</span>
+			<hr />
+				<table width="100%" height="600px">
+					<thead>
+						<tr style="font-size : 23px;">
+							<td>Qualification</td>
+							<td>Board/University</td>
+							<td>Year</td>
+							<td>Percentage/CGPA</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr style="font-size : 23px;">
+							<td>B.Tech</td>
+							<td>BPUT</td>
+							<td>2014-18</td>
+							<td>7.00/10 CGPA</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>12<sup>th</sup></td>
+							<td>JAC<br />KOLHAN INTER COLLEGE CHALIYAMA DAM</td>
+							<td>2013</td>
+							<td>56.6%</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>10<sup>th</sup></td>
+							<td>jac<br />GOVT HIGH SCHOOL</td>
+							<td>2011</td>
+							<td>69.2%</td>
+						<tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="Skills" class="subdiv odd" style = " margin-top: -21px;">
+				<span>Skills</span>
+			<hr />
+				<ul style="font-size : 23px;">
+					<li>C</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>DBMS</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+			<div id = "Hobbies" class="subdiv even" style = "  margin-top: -23px;">
+				<span>Hobbies</span>
+			<hr />
+				<ul style="font-size : 23px;">
+					<li>Reading books of"A P J Abdul Kalam"</li>
+					<li>Reading News Paper Specialy "Times Of India"</li>
+					<li>Horse Riding</li>
+				</ul>
+			</div>
+			<div id="ContactMe" class="subdiv odd" style = "margin-top: -23px;">
+				<span>Contact Me</span>
+				<br />
+				<hr />
+				<p style="font-size : 23px;" align="center">Room NO.- 311,Hostel - 2, Gandhi Engineeering College,Bhubaneswar <br />PIN - 752054 <br />Contact No.- 7077793969</p>
+			</div>
+		</div>
+	<footer>
+		<span>Copyright@2017 <a>www.graduit.com</a></span>
+	</footer>
+	</body>
+</html>
